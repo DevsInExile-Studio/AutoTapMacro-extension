@@ -1,0 +1,22 @@
+# Dependencies and generated output
+/node_modules/
+/dist/
+/artifacts/
+/coverage/
+*.log
+
+# Local browser-test data
+/tests/.profile*/
+/tests/.browser*/
+/tests/settings-debug.json
+
+# Legacy output locations
+/AutoTap-Macro-*.zip
+/AutoTap-Macro-*.sha256.txt
+/store/test-*.png
+/store/preview-*.png
+/store/preview-*.gif
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
