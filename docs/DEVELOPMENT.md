@@ -7,7 +7,7 @@ The repository root is the extension directory. `chrome/` is the complete, depen
 ```text
 chrome/        Extension runtime, icons and bundled fonts
 docs/          Developer notes, banner and README badges
-i18n/          Five README translations
+i18n/          Seven README translations
 store/         Five screenshots, promotional tiles and store copy
 tests/         Unit and isolated browser checks
 tools/         Artwork, previews and release packaging
@@ -68,11 +68,11 @@ powershell -ExecutionPolicy Bypass -File tools/package.ps1
 
 Release files go into the ignored dist/ directory. The script reads the version from `chrome/manifest.json`, packages the contents of `chrome/` at the ZIP root, writes a SHA-256 file, and creates `AutoTap-Macro-Store-Assets.zip` with eight files: five screenshots, two promotional tiles, and the icon. README, translations, tests, and banner source stay outside the runtime ZIP.
 
-No publishing is performed by these commands. Store copy and submission notes are in [STORE_LISTING.md](../store/STORE_LISTING.md). The Chrome Web Store badge in each README currently points to the store homepage as a placeholder; replace those six links with the real listing when available.
+No publishing is performed by these commands. Store copy and submission notes are in [STORE_LISTING.md](../store/STORE_LISTING.md). The Chrome Web Store badge in each README currently points to the store homepage as a placeholder; replace those eight links with the real listing when available.
 
 ## Documentation
 
-- [English README](../README.md), with five translated versions in `i18n/`.
+- [English README](../README.md), with seven translated versions in `i18n/`: Spanish, Simplified Chinese, Hindi, Arabic, French, Russian and Brazilian Portuguese.
 - [Extension privacy policy](../store/PRIVACY.md).
 
 UI language remains English. The README translations do not add interface localization. The extension bundles Inter and Pangolin fonts; their license files are retained in `chrome/assets/`.
