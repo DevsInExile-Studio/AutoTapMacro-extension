@@ -1,0 +1,8 @@
+{
+  "name": "autotap-browser-workshop",
+  "version": "1.4.2",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test tests/core.test.mjs tests/repository.test.mjs tests/compatibility.test.mjs tests/page-target.test.mjs", "test:browser": "node tests/browser.mjs", "test:compatibility": "node tests/compatibility-browser.mjs", "test:feedback": "node tests/feedback-browser.mjs", "test:mouse": "node tests/mouse-browser.mjs", "test:pointer": "node tests/pointer-browser.mjs", "assets": "node tools/build-assets.mjs", "preview:recording": "node tools/preview-recording.mjs" },
+  "devDependencies": { "playwright": "1.62.1" }
+}

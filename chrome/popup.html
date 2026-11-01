@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AutoTap Macro</title><link rel="stylesheet" href="theme.css"><link rel="stylesheet" href="popup.css"></head>
+<body>
+<div class="popup">
+  <header class="popup-sign paper"><img src="assets/brand.png" width="32" height="32" alt=""><h1 class="hand">AutoTap <span>Macro</span></h1><a class="github-link" href="https://github.com/DevsInExile-Studio/AutoTapMacro-extension" target="_blank" rel="noopener noreferrer" aria-label="AutoTap Macro on GitHub" title="AutoTap Macro on GitHub"><span data-icon="github"></span></a></header>
+  <main class="popup-page paper">
+    <div class="page-heading"><div class="page-site" id="page-site">Connecting…</div><span id="ready" class="pill green" role="status"><span class="dot"></span>Connecting</span></div>
+    <div id="session" hidden></div>
+    <button class="btn red record-button" id="record" disabled aria-describedby="record-note"><span data-icon="record"></span>Record this tab</button>
+    <p class="record-note" id="record-note">Checking this page…</p>
+    <div class="shelf-title"><div id="popup-section" class="section-tabs" role="tablist" aria-label="Collection section"><button id="tab-macros" role="tab" aria-selected="true" aria-controls="recent-macros" data-section="macros">Macros</button><button id="tab-scripts" role="tab" aria-selected="false" aria-controls="recent-macros" tabindex="-1" data-section="scripts">Scripts</button><button id="tab-commands" role="tab" aria-selected="false" aria-controls="recent-macros" tabindex="-1" data-section="commands">Commands</button></div><button id="open-workspace-small" class="link-button" title="Open workshop">View all <span data-icon="arrow"></span></button></div>
+    <div id="recent-macros" role="tabpanel" aria-labelledby="tab-macros" tabindex="0"></div>
+    <button class="btn workshop-button" id="open-workspace"><span data-icon="macro"></span>Open workshop<span class="grow"></span><span data-icon="arrow"></span></button>
+  </main>
+  <a id="android-link" class="android-mini" target="_blank" rel="noopener"><img src="assets/brand.png" width="20" height="20" alt=""><span>AutoTap for Android</span><span class="android-store">Google Play</span><span data-icon="external"></span></a>
+  <footer class="popup-footer"><span class="dot"></span>Stored locally</footer>
+</div>
+<script src="popup.js" type="module"></script>
+</body></html>

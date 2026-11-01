@@ -1,0 +1,7 @@
+[
+  { "file": "screenshot-macros-1280x800.png", "title": "Make a routine your own", "description": "Edit actions, selectors, timing, cycles and playback speed." },
+  { "file": "screenshot-recording-1280x800.png", "title": "Record with clear feedback", "description": "A live website recording with a compact Pause/Stop bar and recent-action carousel." },
+  { "file": "screenshot-javascript-1280x800.png", "title": "A workshop for your JavaScript", "description": "Write userscripts and choose when and where they run." },
+  { "file": "screenshot-compatibility-1280x800.png", "title": "Choose what your scripts can do", "description": "Review GM grants, site rules, network access and attached libraries." },
+  { "file": "screenshot-toolbox-1280x800.png", "title": "Turn page data into a useful table", "description": "Preview page extraction and export CSV or JSON." }
+]

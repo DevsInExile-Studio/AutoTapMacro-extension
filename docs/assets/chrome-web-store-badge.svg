@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="64" viewBox="0 0 220 64" role="img" aria-label="Get AutoTap Macro on Chrome Web Store">
+  <rect x=".5" y=".5" width="219" height="63" rx="10" fill="#302a25" stroke="#67563e"/>
+  <g transform="translate(0 0)">
+    <path d="M18.144 24A16 16 0 0 1 45.856 24H32a8 8 0 0 0-6.928 12Z" fill="#ea4335"/>
+    <path d="M45.856 24A16 16 0 0 1 32 48l6.928-12A8 8 0 0 0 32 24Z" fill="#fbbc05"/>
+    <path d="M32 48A16 16 0 0 1 18.144 24l6.928 12a8 8 0 0 0 13.856 0Z" fill="#34a853"/>
+    <circle cx="32" cy="32" r="7.3" fill="#4285f4" stroke="#f5eacd" stroke-width="1.4"/>
+  </g>
+  <text x="60" y="24" font-family="Arial,sans-serif" font-size="10" fill="#d7c9af" letter-spacing=".6">GET IT ON</text>
+  <text x="59" y="45" font-family="Arial,sans-serif" font-size="17" fill="#f5eacd">Chrome Web Store</text>
+</svg>
