@@ -3,6 +3,7 @@
   "name": "AutoTap Macro | Recorder & Scripts",
   "version": "1.4.2",
   "description": "Record clicks, typing and scrolling. Replay browser macros and run your own JavaScript in a warm, paper-inspired workspace.",
+  "homepage_url": "https://github.com/DevsInExile-Studio/AutoTapMacro-extension",
   "minimum_chrome_version": "138",
   "permissions": ["activeTab", "scripting", "storage", "userScripts", "offscreen"],
   "optional_permissions": ["notifications", "downloads", "clipboardWrite"],
